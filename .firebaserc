@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "investment-taxation": {
+      "hosting": {
+        "Investment-Taxation": [
+          "investment-taxation"
+        ]
+      }
+    }
+  }
+}
