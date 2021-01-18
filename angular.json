@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "Investment-Taxation"
+  "defaultProject": "Investment-Taxation",
+  "cli": {
+    "analytics": "687990de-b074-4267-97c8-025fdb69dd55"
+  }
 }
