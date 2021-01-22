@@ -1,12 +1,17 @@
 <nb-layout>
-
   <nb-layout-header fixed>
-  <!-- Insert header here -->
+    <nb-actions size="medium">
+      <nb-action>
+        <button type="button" ghost status="basic" nbButton size="large" (click)="toggle()">
+        <nb-icon icon="menu-outline"></nb-icon>
+      </button></nb-action>
+      <nb-action icon="home-outline"></nb-action>
+    </nb-actions>
   </nb-layout-header>
-
+  <nb-sidebar tag="left">
+    <app-menu></app-menu>
+</nb-sidebar>
   <nb-layout-column>
-    
-    
     <router-outlet></router-outlet>
   </nb-layout-column>
 
