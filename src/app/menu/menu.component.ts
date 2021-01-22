@@ -13,11 +13,15 @@ export class MenuComponent{
 
   items: NbMenuItem[] = [
     {
-      title: 'Profile',
+      title: 'Home',
+      link: '',
+    },
+    {
+      title: 'Filing Taxes',
       expanded: true,
       children: [
         {
-          title: 'Change Password',
+          title: 'T4',
         },
         {
           title: 'Privacy Policy',
