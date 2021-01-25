@@ -17,25 +17,61 @@ export class MenuComponent{
       link: '',
     },
     {
-      title: 'Filing Taxes',
-      expanded: true,
+      title: 'Filing Process',
+      expanded: false,
       children: [
         {
-          title: 'T4',
+          title: 'Ways To File',
         },
         {
-          title: 'Privacy Policy',
-        },
-        {
-          title: 'Logout',
+          title: 'T4 | T4E | T4A',
         },
       ],
     },
     {
-      title: 'Shopping Bag',
+      title: 'Tax Shelters',
+      expanded: false,
+      children: [
+        {
+          title: 'TFSA',
+        },
+        {
+          title: 'RRSP',
+        },
+        {
+          title: 'RESP',
+        },
+      ],
     },
     {
-      title: 'Orders',
+      title: 'Investment Taxes',
+      expanded: false,
+      children: [
+        {
+          title: 'Bond Tax',
+        },
+        {
+          title: 'Capital Gains Tax',
+        },
+        {
+          title: 'Dividend Tax',
+        },
+      ],
+    },
+    {
+      title: 'Income Taxes',
+      expanded: false,
+      children: [
+        {
+          title: 'Tax Brackets',
+        },
+        {
+          title: 'Basic Personal Amount',
+        },
+      ],
+    },
+    {
+      title: 'Works Cited',
     },
   ];
 
