@@ -14,7 +14,7 @@ export class MenuComponent{
   items: NbMenuItem[] = [
     {
       title: 'Home',
-      link: '',
+      link: 'home',
     },
     {
       title: 'Filing Process',
@@ -22,9 +22,15 @@ export class MenuComponent{
       children: [
         {
           title: 'Ways To File',
+          link: 'filing/ways-to-file',
         },
         {
           title: 'T4 | T4E | T4A',
+          link: 'filing/t4',
+        },
+        {
+          title: 'Filing Online',
+          link: 'filing/online',
         },
       ],
     },
@@ -34,12 +40,15 @@ export class MenuComponent{
       children: [
         {
           title: 'TFSA',
+          link: 'shelters/tfsa',
         },
         {
           title: 'RRSP',
+          link: 'shelters/rrsp',
         },
         {
           title: 'RESP',
+          link: 'shelters/resp',
         },
       ],
     },
@@ -49,12 +58,15 @@ export class MenuComponent{
       children: [
         {
           title: 'Bond Tax',
+          link: 'investment/bond',
         },
         {
           title: 'Capital Gains Tax',
+          link: 'investment/capital-gains',
         },
         {
           title: 'Dividend Tax',
+          link: 'investment/dividend',
         },
       ],
     },
@@ -64,14 +76,37 @@ export class MenuComponent{
       children: [
         {
           title: 'Tax Brackets',
+          link: 'income/brackets',
         },
         {
-          title: 'Basic Personal Amount',
+          title: 'Tax Deductions',
+          expanded: false,
+          children: [
+            {
+              title: 'Basic Personal Amount',
+              link: 'income/bpa',
+            },
+      ],
+        },
+      ],
+    },
+    {
+      title: 'Harmonized Sales Tax (HST)',
+      expanded: false,
+      children: [
+        {
+          title: 'What is HST',
+          link: 'hst/what-is-hst',
+        },
+        {
+          title: 'Exemptions',
+          link: 'hst/exemptions',
         },
       ],
     },
     {
       title: 'Works Cited',
+      link: 'works-cited',
     },
   ];
 
