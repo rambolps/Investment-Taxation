@@ -1,15 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { DataService } from "../../data.service";
+import { Subscription } from 'rxjs';
+
 
 @Component({
   selector: 'app-exemptions',
   templateUrl: './exemptions.component.html',
   styleUrls: ['./exemptions.component.scss']
 })
-export class ExemptionsComponent implements OnInit {
+export class ExemptionsComponent implements OnInit, OnDestroy {
+  message!:string;
+  subscription!: Subscription;
 
-  constructor() { }
+  constructor(private data: DataService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.subscription = this.data.currentMessage.subscribe(message => this.message = message)
+    this.data.changeMessage("HST Exemptions")
   }
 
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
+  }
 }

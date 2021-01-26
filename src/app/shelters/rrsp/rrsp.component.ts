@@ -1,15 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { DataService } from "../../data.service";
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-rrsp',
   templateUrl: './rrsp.component.html',
   styleUrls: ['./rrsp.component.scss']
 })
-export class RrspComponent implements OnInit {
+export class RrspComponent implements OnInit, OnDestroy {
+  message!:string;
+  subscription!: Subscription;
 
-  constructor() { }
+  constructor(private data: DataService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.subscription = this.data.currentMessage.subscribe(message => this.message = message)
+    this.data.changeMessage("Registered Retirement Savings Plan (RRSP)")
   }
 
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
+  }
 }
