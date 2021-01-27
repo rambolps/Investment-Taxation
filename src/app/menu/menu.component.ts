@@ -86,6 +86,22 @@ export class MenuComponent{
               title: 'Basic Personal Amount',
               link: 'income/bpa',
             },
+            {
+              title: 'Eligible Medical Expenses',
+              link: 'income/medical',
+            },
+            {
+              title: 'Tuition & Education',
+              link: 'income/education',
+            },
+            {
+              title: 'Child Care Expenses',
+              link: 'income/child-care',
+            },
+            {
+              title: 'Union or Like Dues',
+              link: 'income/union-dues',
+            },
       ],
         },
       ],

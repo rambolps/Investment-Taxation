@@ -22,6 +22,10 @@ import { BracketsComponent } from './income/brackets/brackets.component';
 import { BpaComponent } from './income/bpa/bpa.component';
 import { WhatComponent } from './hst/what/what.component';
 import { ExemptionsComponent } from './hst/exemptions/exemptions.component';
+import { MedicalComponent } from './income/medical/medical.component';
+import { ChildComponent } from './income/child/child.component';
+import { SchoolComponent } from './income/school/school.component';
+import { UnionComponent } from './income/union/union.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +45,11 @@ import { ExemptionsComponent } from './hst/exemptions/exemptions.component';
     BracketsComponent,
     BpaComponent,
     WhatComponent,
-    ExemptionsComponent
+    ExemptionsComponent,
+    MedicalComponent,
+    ChildComponent,
+    SchoolComponent,
+    UnionComponent
   ],
   imports: [
     BrowserModule,
