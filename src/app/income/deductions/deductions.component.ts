@@ -3,12 +3,11 @@ import { DataService } from "../../data.service";
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-t4',
-  templateUrl: './t4.component.html',
-  styleUrls: ['./t4.component.scss']
+  selector: 'app-deductions',
+  templateUrl: './deductions.component.html',
+  styleUrls: ['./deductions.component.scss']
 })
-export class T4Component implements OnInit, OnDestroy {
-
+export class DeductionsComponent implements OnInit, OnDestroy {
   message!:string;
   subscription!: Subscription;
 
@@ -16,7 +15,7 @@ export class T4Component implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.subscription = this.data.currentMessage.subscribe(message => this.message = message)
-    this.data.changeMessage("T4 | T4E | T4A")
+    this.data.changeMessage("General Info On Deductions")
   }
 
   ngOnDestroy() {

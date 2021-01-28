@@ -4,7 +4,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent} from './home/home.component';
 
 import { WaysComponent} from './filing/ways/ways.component';
-import { T4Component} from './filing/t4/t4.component';
 import { OnlineComponent} from './filing/online/online.component';
 
 import { TfsaComponent} from './shelters/tfsa/tfsa.component';
@@ -16,6 +15,7 @@ import { CapitalComponent} from './investment/capital/capital.component';
 import { DividendComponent} from './investment/dividend/dividend.component';
 
 import { BracketsComponent} from './income/brackets/brackets.component';
+import { DeductionsComponent} from './income/deductions/deductions.component';
 import { BpaComponent} from './income/bpa/bpa.component';
 import { ChildComponent} from './income/child/child.component';
 import { MedicalComponent} from './income/medical/medical.component';
@@ -31,7 +31,6 @@ import { CitedComponent} from './cited/cited.component';
 const routes: Routes = [
   {path:'home', component: HomeComponent},
   {path:'filing/ways-to-file', component: WaysComponent},
-  {path:'filing/t4', component: T4Component},
   {path:'filing/online', component: OnlineComponent},
   {path:'shelters/tfsa', component: TfsaComponent},
   {path:'shelters/rrsp', component: RrspComponent},
@@ -40,6 +39,7 @@ const routes: Routes = [
   {path:'investment/capital-gains', component: CapitalComponent},
   {path:'investment/dividend', component: DividendComponent},
   {path:'income/brackets', component: BracketsComponent},
+  {path:'income/deductions', component: DeductionsComponent},
   {path:'income/bpa', component: BpaComponent},
   {path:'income/child-care', component: ChildComponent},
   {path:'income/medical', component: MedicalComponent},

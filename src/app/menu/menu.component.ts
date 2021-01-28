@@ -25,10 +25,6 @@ export class MenuComponent{
           link: 'filing/ways-to-file',
         },
         {
-          title: 'T4 | T4E | T4A',
-          link: 'filing/t4',
-        },
-        {
           title: 'Filing Online',
           link: 'filing/online',
         },
@@ -82,6 +78,10 @@ export class MenuComponent{
           title: 'Tax Deductions',
           expanded: false,
           children: [
+            {
+              title: 'General',
+              link: 'income/deductions',
+            },
             {
               title: 'Basic Personal Amount',
               link: 'income/bpa',

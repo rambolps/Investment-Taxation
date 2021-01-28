@@ -10,7 +10,6 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { CitedComponent } from './cited/cited.component';
 import { WaysComponent } from './filing/ways/ways.component';
-import { T4Component } from './filing/t4/t4.component';
 import { OnlineComponent } from './filing/online/online.component';
 import { TfsaComponent } from './shelters/tfsa/tfsa.component';
 import { RrspComponent } from './shelters/rrsp/rrsp.component';
@@ -26,6 +25,7 @@ import { MedicalComponent } from './income/medical/medical.component';
 import { ChildComponent } from './income/child/child.component';
 import { SchoolComponent } from './income/school/school.component';
 import { UnionComponent } from './income/union/union.component';
+import { DeductionsComponent } from './income/deductions/deductions.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,6 @@ import { UnionComponent } from './income/union/union.component';
     MenuComponent,
     CitedComponent,
     WaysComponent,
-    T4Component,
     OnlineComponent,
     TfsaComponent,
     RrspComponent,
@@ -49,7 +48,8 @@ import { UnionComponent } from './income/union/union.component';
     MedicalComponent,
     ChildComponent,
     SchoolComponent,
-    UnionComponent
+    UnionComponent,
+    DeductionsComponent
   ],
   imports: [
     BrowserModule,

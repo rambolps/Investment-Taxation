@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { T4Component } from './t4.component';
+import { DeductionsComponent } from './deductions.component';
 
-describe('T4Component', () => {
-  let component: T4Component;
-  let fixture: ComponentFixture<T4Component>;
+describe('DeductionsComponent', () => {
+  let component: DeductionsComponent;
+  let fixture: ComponentFixture<DeductionsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ T4Component ]
+      declarations: [ DeductionsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(T4Component);
+    fixture = TestBed.createComponent(DeductionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
