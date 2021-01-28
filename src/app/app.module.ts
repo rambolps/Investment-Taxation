@@ -17,12 +17,8 @@ import { RespComponent } from './shelters/resp/resp.component';
 import { CapitalComponent } from './investment/capital/capital.component';
 import { DividendComponent } from './investment/dividend/dividend.component';
 import { BracketsComponent } from './income/brackets/brackets.component';
-import { BpaComponent } from './income/bpa/bpa.component';
 import { WhatComponent } from './hst/what/what.component';
 import { ExemptionsComponent } from './hst/exemptions/exemptions.component';
-import { MedicalComponent } from './income/medical/medical.component';
-import { ChildComponent } from './income/child/child.component';
-import { SchoolComponent } from './income/school/school.component';
 import { DeductionsComponent } from './income/deductions/deductions.component';
 
 @NgModule({
@@ -39,12 +35,8 @@ import { DeductionsComponent } from './income/deductions/deductions.component';
     CapitalComponent,
     DividendComponent,
     BracketsComponent,
-    BpaComponent,
     WhatComponent,
     ExemptionsComponent,
-    MedicalComponent,
-    ChildComponent,
-    SchoolComponent,
     DeductionsComponent
   ],
   imports: [

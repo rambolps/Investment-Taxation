@@ -15,10 +15,6 @@ import { DividendComponent} from './investment/dividend/dividend.component';
 
 import { BracketsComponent} from './income/brackets/brackets.component';
 import { DeductionsComponent} from './income/deductions/deductions.component';
-import { BpaComponent} from './income/bpa/bpa.component';
-import { ChildComponent} from './income/child/child.component';
-import { MedicalComponent} from './income/medical/medical.component';
-import { SchoolComponent} from './income/school/school.component';
 
 import { WhatComponent} from './hst/what/what.component';
 import { ExemptionsComponent} from './hst/exemptions/exemptions.component';
@@ -37,10 +33,6 @@ const routes: Routes = [
   {path:'investment/dividend', component: DividendComponent},
   {path:'income/brackets', component: BracketsComponent},
   {path:'income/deductions', component: DeductionsComponent},
-  {path:'income/bpa', component: BpaComponent},
-  {path:'income/child-care', component: ChildComponent},
-  {path:'income/medical', component: MedicalComponent},
-  {path:'income/education', component: SchoolComponent},
   {path:'hst/what-is-hst', component: WhatComponent},
   {path:'hst/exemptions', component: ExemptionsComponent},
   {path:'works-cited', component: CitedComponent},

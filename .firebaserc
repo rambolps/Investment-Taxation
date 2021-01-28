@@ -1,9 +1,9 @@
 {
   "targets": {
-    "investment-taxation": {
+    "Investment_Taxation": {
       "hosting": {
-        "Investment-Taxation": [
-          "investment-taxation"
+        "Investment_Taxation": [
+          "Investment_Taxation"
         ]
       }
     }

@@ -15,7 +15,7 @@ export class DeductionsComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.subscription = this.data.currentMessage.subscribe(message => this.message = message)
-    this.data.changeMessage("General Info On Deductions")
+    this.data.changeMessage("Income Tax Deductions")
   }
 
   ngOnDestroy() {

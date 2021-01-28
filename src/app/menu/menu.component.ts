@@ -72,29 +72,7 @@ export class MenuComponent{
         },
         {
           title: 'Tax Deductions',
-          expanded: false,
-          children: [
-            {
-              title: 'General',
-              link: 'income/deductions',
-            },
-            {
-              title: 'Basic Personal Amount',
-              link: 'income/bpa',
-            },
-            {
-              title: 'Eligible Medical Expenses',
-              link: 'income/medical',
-            },
-            {
-              title: 'Tuition & Education',
-              link: 'income/education',
-            },
-            {
-              title: 'Child Care Expenses',
-              link: 'income/child-care',
-            },
-      ],
+          link: 'income/deductions',
         },
       ],
     },
