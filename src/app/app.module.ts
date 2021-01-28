@@ -23,7 +23,6 @@ import { ExemptionsComponent } from './hst/exemptions/exemptions.component';
 import { MedicalComponent } from './income/medical/medical.component';
 import { ChildComponent } from './income/child/child.component';
 import { SchoolComponent } from './income/school/school.component';
-import { UnionComponent } from './income/union/union.component';
 import { DeductionsComponent } from './income/deductions/deductions.component';
 
 @NgModule({
@@ -46,7 +45,6 @@ import { DeductionsComponent } from './income/deductions/deductions.component';
     MedicalComponent,
     ChildComponent,
     SchoolComponent,
-    UnionComponent,
     DeductionsComponent
   ],
   imports: [

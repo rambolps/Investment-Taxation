@@ -94,10 +94,6 @@ export class MenuComponent{
               title: 'Child Care Expenses',
               link: 'income/child-care',
             },
-            {
-              title: 'Union or Like Dues',
-              link: 'income/union-dues',
-            },
       ],
         },
       ],

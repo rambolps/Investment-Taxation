@@ -19,7 +19,6 @@ import { BpaComponent} from './income/bpa/bpa.component';
 import { ChildComponent} from './income/child/child.component';
 import { MedicalComponent} from './income/medical/medical.component';
 import { SchoolComponent} from './income/school/school.component';
-import { UnionComponent} from './income/union/union.component';
 
 import { WhatComponent} from './hst/what/what.component';
 import { ExemptionsComponent} from './hst/exemptions/exemptions.component';
@@ -42,7 +41,6 @@ const routes: Routes = [
   {path:'income/child-care', component: ChildComponent},
   {path:'income/medical', component: MedicalComponent},
   {path:'income/education', component: SchoolComponent},
-  {path:'income/union-dues', component: UnionComponent},
   {path:'hst/what-is-hst', component: WhatComponent},
   {path:'hst/exemptions', component: ExemptionsComponent},
   {path:'works-cited', component: CitedComponent},
