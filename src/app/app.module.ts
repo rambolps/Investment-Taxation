@@ -14,7 +14,6 @@ import { OnlineComponent } from './filing/online/online.component';
 import { TfsaComponent } from './shelters/tfsa/tfsa.component';
 import { RrspComponent } from './shelters/rrsp/rrsp.component';
 import { RespComponent } from './shelters/resp/resp.component';
-import { BondComponent } from './investment/bond/bond.component';
 import { CapitalComponent } from './investment/capital/capital.component';
 import { DividendComponent } from './investment/dividend/dividend.component';
 import { BracketsComponent } from './income/brackets/brackets.component';
@@ -38,7 +37,6 @@ import { DeductionsComponent } from './income/deductions/deductions.component';
     TfsaComponent,
     RrspComponent,
     RespComponent,
-    BondComponent,
     CapitalComponent,
     DividendComponent,
     BracketsComponent,

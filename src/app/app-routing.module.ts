@@ -10,7 +10,6 @@ import { TfsaComponent} from './shelters/tfsa/tfsa.component';
 import { RrspComponent} from './shelters/rrsp/rrsp.component';
 import { RespComponent} from './shelters/resp/resp.component';
 
-import { BondComponent} from './investment/bond/bond.component';
 import { CapitalComponent} from './investment/capital/capital.component';
 import { DividendComponent} from './investment/dividend/dividend.component';
 
@@ -35,7 +34,6 @@ const routes: Routes = [
   {path:'shelters/tfsa', component: TfsaComponent},
   {path:'shelters/rrsp', component: RrspComponent},
   {path:'shelters/resp', component: RespComponent},
-  {path:'investment/bond', component: BondComponent},
   {path:'investment/capital-gains', component: CapitalComponent},
   {path:'investment/dividend', component: DividendComponent},
   {path:'income/brackets', component: BracketsComponent},

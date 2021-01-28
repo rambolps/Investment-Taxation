@@ -53,10 +53,6 @@ export class MenuComponent{
       expanded: false,
       children: [
         {
-          title: 'Bond Tax',
-          link: 'investment/bond',
-        },
-        {
           title: 'Capital Gains Tax',
           link: 'investment/capital-gains',
         },
