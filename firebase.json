@@ -1,8 +1,8 @@
 {
   "hosting": [
     {
-      "target": "Investment_Taxation",
-      "public": "dist/Investment_Taxation",
+      "target": "Investment-Taxation",
+      "public": "dist/Investment-Taxation",
       "ignore": [
         "**/.*"
       ],

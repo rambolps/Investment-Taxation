@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
 })
 export class AppComponent implements OnInit, OnDestroy{
  
-  title = 'Investment_Taxation';
+  title = 'Investment-Taxation';
 
   message!: string;
   subscription!: Subscription;

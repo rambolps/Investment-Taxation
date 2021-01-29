@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Investment_Taxation": {
+    "Investment-Taxation": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Investment_Taxation",
+            "outputPath": "dist/Investment-Taxation",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Investment_Taxation:build"
+            "browserTarget": "Investment-Taxation:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Investment_Taxation:build:production"
+              "browserTarget": "Investment-Taxation:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Investment_Taxation:build"
+            "browserTarget": "Investment-Taxation:build"
           }
         },
         "test": {
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Investment_Taxation:serve"
+            "devServerTarget": "Investment-Taxation:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Investment_Taxation:serve:production"
+              "devServerTarget": "Investment-Taxation:serve:production"
             }
           }
         },
@@ -131,7 +131,7 @@
       }
     }
   },
-  "defaultProject": "Investment_Taxation",
+  "defaultProject": "Investment-Taxation",
   "cli": {
     "analytics": "687990de-b074-4267-97c8-025fdb69dd55"
   }
