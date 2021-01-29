@@ -1,0 +1,43 @@
+<h4>Dividend Tax Calculator</h4>
+
+<input nbInput type="text" #divinn (keyup)="inputnum(divinn.value,'divin')" nbInput placeholder="Dividend Received ($)">
+<br>
+<br>
+<input nbInput type="text" #marg (keyup)="inputnum(marg.value,'marg')" nbInput placeholder="Marginal Tax Rate (%)">
+<br>
+<br>
+<button nbButton hero status="primary" shape="rectangle" size="medium" (click)="calcdiv()">Calculate</button>
+<br>
+<p>The tax on the ${{divin}} of dividends you received was ${{divout}}</p>
+
+<h4>Adjusted Cost Base Calculator</h4>
+<input nbInput type="text" #comfeeb (keyup)="inputnum(comfeeb.value,'comfeeb')" nbInput placeholder="Commission Fee ($)">
+<br>
+<br>
+<input nbInput type="text" #sharesb (keyup)="inputnum(sharesb.value,'sharesb')" nbInput placeholder="Number of Shares (#)">
+<br>
+<br>
+<input nbInput type="text" #tcos (keyup)="inputnum(tcos.value,'tcos')" nbInput placeholder="Total Cost of Shares ($)">
+<br>
+<br>
+<button nbButton hero status="primary" shape="rectangle" size="medium" (click)="calcacb()">Calculate</button>
+<br>
+<p>The Adjusted Cost Base of your shares is ${{acbb}}</p>
+
+<h4>Capital Gain/Loss Calculator</h4>
+<input nbInput type="text" #comfees (keyup)="inputnum(comfees.value,'comfees')" nbInput placeholder="Commission Fee ($)">
+<br>
+<br>
+<input nbInput type="text" #sharess (keyup)="inputnum(sharess.value,'sharess')" nbInput placeholder="Shares Sold (#)">
+<br>
+<br>
+<input nbInput type="text" #acbbs (keyup)="inputnum(acbbs.value,'acb')" nbInput placeholder="Adjusted Cost Base ($)">
+<br>
+<br>
+<input nbInput type="text" #ppss (keyup)="inputnum(ppss.value,'ppss')" nbInput placeholder="Price Per Share Sold ($)">
+<br>
+<br>
+<button nbButton hero status="primary" shape="rectangle" size="medium" (click)="calcgl()">Calculate</button>
+<br>
+<p *ngIf="gol">Your Capital Gains are ${{gl}}, but only ${{taxg}} is taxable income</p>
+<p *ngIf="!gol">Your Capital Losses are ${{gl}}</p>

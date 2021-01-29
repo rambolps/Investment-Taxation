@@ -60,6 +60,10 @@ export class MenuComponent{
           title: 'Dividend Tax',
           link: 'investment/dividend',
         },
+        {
+          title: 'Calculator',
+          link: 'investment/calculator',
+        },
       ],
     },
     {

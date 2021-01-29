@@ -12,6 +12,7 @@ import { RespComponent} from './shelters/resp/resp.component';
 
 import { CapitalComponent} from './investment/capital/capital.component';
 import { DividendComponent} from './investment/dividend/dividend.component';
+import { CalculatorComponent} from './investment/calculator/calculator.component';
 
 import { BracketsComponent} from './income/brackets/brackets.component';
 import { DeductionsComponent} from './income/deductions/deductions.component';
@@ -31,6 +32,7 @@ const routes: Routes = [
   {path:'shelters/resp', component: RespComponent},
   {path:'investment/capital-gains', component: CapitalComponent},
   {path:'investment/dividend', component: DividendComponent},
+  {path:'investment/calculator', component: CalculatorComponent},
   {path:'income/brackets', component: BracketsComponent},
   {path:'income/deductions', component: DeductionsComponent},
   {path:'hst/what-is-hst', component: WhatComponent},

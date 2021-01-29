@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NbThemeModule, NbLayoutModule, NbSidebarModule, NbMenuModule, NbButtonModule, NbIconModule, NbActionsModule,} from '@nebular/theme';
+import { NbThemeModule, NbLayoutModule, NbSidebarModule, NbMenuModule, NbButtonModule, NbIconModule, NbActionsModule, NbInputModule,} from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
@@ -20,6 +20,7 @@ import { BracketsComponent } from './income/brackets/brackets.component';
 import { WhatComponent } from './hst/what/what.component';
 import { ExemptionsComponent } from './hst/exemptions/exemptions.component';
 import { DeductionsComponent } from './income/deductions/deductions.component';
+import { CalculatorComponent } from './investment/calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { DeductionsComponent } from './income/deductions/deductions.component';
     BracketsComponent,
     WhatComponent,
     ExemptionsComponent,
-    DeductionsComponent
+    DeductionsComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
@@ -53,6 +55,7 @@ import { DeductionsComponent } from './income/deductions/deductions.component';
     NbMenuModule,
     NbButtonModule,
     NbActionsModule,
+    NbInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
